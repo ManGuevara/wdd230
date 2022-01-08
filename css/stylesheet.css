@@ -4,3 +4,9 @@ display:grid;
 grid-template-columns:1fr 1fr;
 
 }
+.myname{
+grid-column:1/2;
+}
+.image{
+    grid-column: 2/3;
+}
