@@ -1,0 +1,58 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+
+
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+img {
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black, 0 0 1em rgb(3, 3, 3), 0 0 0.2em rgb(47, 47, 53);
+    
+}
+.header-format {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.name {
+    margin-top: 60px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header,
+footer {
+    background-color: #1976d2;
+    color: #f5f3f4;
+    text-align: center;
+    padding: 1rem;
+
+}
+footer {
+    font-size: x-large;
+}
+a {
+    font-family: 'Titillium Web', sans-serif;
+    color:blue;
+}
+
+.heading-top {
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(3, 3, 3), 0 0 0.2em rgb(47, 47, 53);
+    color: #595959;
+}
+
+.bottom-message {
+    margin-top: 0px;
+    color:#403d39;
+  
+}
