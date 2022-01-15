@@ -1,7 +1,7 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-
+    font-family: 'Roboto Mono', monospace;
 
 }
 
@@ -12,11 +12,13 @@ footer {
     margin: 1.25rem auto;
     max-width: 760px;
 }
+
 img {
     border-radius: 5px;
     box-shadow: 1px 1px 2px black, 0 0 1em rgb(3, 3, 3), 0 0 0.2em rgb(47, 47, 53);
-    
+
 }
+
 .header-format {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,16 +37,20 @@ footer {
     padding: 1rem;
 
 }
+
 footer {
-    font-size: x-large;
+    font-size:25px ;
+    font-family: 'Inconsolata', monospace;
 }
+
+
 a {
-    font-family: 'Titillium Web', sans-serif;
-    color:blue;
+    font-family: 'Inconsolata', monospace;
+    color: blue;
 }
 
 .heading-top {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Inconsolata', monospace;
     margin-bottom: 0px;
     padding-bottom: 0px;
     text-shadow: 1px 1px 2px black, 0 0 1em rgb(3, 3, 3), 0 0 0.2em rgb(47, 47, 53);
@@ -53,6 +59,10 @@ a {
 
 .bottom-message {
     margin-top: 0px;
-    color:#403d39;
-  
+    color: #403d39;
+     font-family: 'Inconsolata', monospace;
+
+}
+.update_text {
+color: rgb(199, 199, 81);
 }

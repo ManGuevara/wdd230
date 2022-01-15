@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
     <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -41,9 +45,11 @@
     </main>
 
     <footer>
-        &copy;2022 |Manuel F. Guevara|Lima-Peru|Today's Date: <span id="currentdate"></span>
+        &copy;<span id="year"></span>|Manuel Guevara|Lima-Peru|
+        <p class="update_text">Last updated:<span id="last_modified"></span></p>
+
     </footer>
-    <script src="js/currentdate.js"></script>
+    <script src="js/lastupdate.js"></script>
 </body>
 
 </html>
