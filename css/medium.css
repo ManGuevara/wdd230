@@ -1,0 +1,27 @@
+
+
+@media only screen and (min-width: 32.5em){
+    
+img {
+    border-radius: 10px;
+}
+
+.header-format {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    font-size:25px ;
+    font-family: 'Inconsolata', monospace;
+}
+
+.name {
+   
+
+    font-size: 45px;
+}
+
+
+
+}

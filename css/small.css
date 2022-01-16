@@ -14,19 +14,20 @@ footer {
 }
 
 img {
-    border-radius: 5px;
+   
     box-shadow: 1px 1px 2px black, 0 0 1em rgb(3, 3, 3), 0 0 0.2em rgb(47, 47, 53);
 
 }
 
 .header-format {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .name {
     margin-top: 60px;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
 }
 
 header,
@@ -39,7 +40,7 @@ footer {
 }
 
 footer {
-    font-size:25px ;
+    font-size:15px ;
     font-family: 'Inconsolata', monospace;
 }
 
