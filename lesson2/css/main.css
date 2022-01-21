@@ -39,6 +39,7 @@ img, .child3_img {
 
     border:solid rgb(158, 155, 155);
     border-width: .5px;
+    width: 100%;
 }
 
 a{
