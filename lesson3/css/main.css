@@ -84,9 +84,8 @@ nav {
   nav  ul {
     list-style-type: none;
     display: flex;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-  
+    
+    
   }
   nav a {
     padding:1em;
@@ -102,14 +101,15 @@ nav {
 
   /*samll view */
 nav ul {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    
 }
 
 /*large view */
 @media only screen and (min-width: 60em) {
 
 
-nav ul {grid-template-columns: 1fr 1fr 1fr 1fr;
+nav ul {display: flex;
     }
+.menu > li{ flex:1;}
 }

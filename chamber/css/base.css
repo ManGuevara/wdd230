@@ -1,0 +1,186 @@
+/*small view  23 em */
+
+body {
+	padding: 0;
+	margin: 0 5%;
+	
+		
+
+}
+
+header {
+	
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb;
+	display:grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	background-color: #A4161A;
+    color: #F5F3F4;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+.logo img {
+	width: 80px;
+	height: auto;
+}
+
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+	font-family: 'Libre Franklin', sans-serif;
+	
+}
+.headings h1 {
+	font-size: 1.5rem;
+    margin-bottom: 0px;
+	
+
+}
+
+header nav{
+	grid-column:3/4 ;
+	
+
+}
+
+#menu li a{
+	font-family:'Libre Franklin', sans-serif; 
+	color:white;
+}
+
+
+
+
+
+.social {
+	
+    display: flex;
+	grid-column:2/3 ;
+	grid-row:1/2;
+	margin-left: 60px;
+	
+}
+.social img{
+	width:30px;
+	padding:5px;
+
+}
+
+.date {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color:#F5F3F4;
+	grid-column: 1/4;
+	text-align: center;
+	color: black;
+	font-family: 'Libre Franklin', sans-serif;
+}
+footer{ text-align: center;
+	
+	padding-bottom: 5px;
+	background-color: #A4161A;
+    color: #F5F3F4;
+}
+
+
+
+footer img{
+      
+    width: 60px;
+	height:60px;
+	margin-top: 15px;
+
+  }
+.hero{
+	background-color: rgb(184, 174, 174);
+	height: 200px;
+	border: 1px solid  rgb(117, 115, 115);
+	padding:5px;
+
+}
+
+.event{
+	background-color: rgb(184, 174, 174);
+	height: 200px;
+	border: 1px solid  rgb(117, 115, 115);
+	padding:5px;
+}
+
+.weather{
+	background-color: rgb(184, 174, 174);
+	height: 200px;
+	border: 1px solid rgb(117, 115, 115);
+	padding:5px;
+}
+
+.release{
+	background-color: rgb(184, 174, 174);
+	height: 200px;
+	border: 1px solid  rgb(117, 115, 115);
+	padding:5px;
+}
+.join{
+	background-color: rgb(184, 174, 174);
+	height: 200px;
+	border: 1px solid  rgb(117, 115, 115);
+	padding:5px;
+	display: none;
+}
+
+.spotlight {
+	background-color: rgb(184, 174, 174);
+	padding:10px;
+	margin:0;
+	margin-bottom: 5%;
+
+	
+}
+
+ .spot1{background-color: rgb(184, 174, 174);
+	height: 200px;
+	border: 1px solid  rgb(117, 115, 115);
+	margin-bottom:0;
+	padding: 8px;
+	}
+ .spot2{background-color: rgb(184, 174, 174);
+	height: 200px;
+	border: 1px solid  rgb(117, 115, 115);
+	margin-top:0;
+	padding: 8px;
+
+	
+	}
+
+.spot3{
+	background-color: rgb(184, 174, 174);
+	height: 200px;
+	border: 1px solid  rgb(117, 115, 115);
+	margin-top:0;
+	padding: 8px;
+	display:none;
+}
+
+
+
+
+
+
+nav ul{display:none;}
+nav ul.open{display:block;}
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
