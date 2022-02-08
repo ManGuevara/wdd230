@@ -1,5 +1,7 @@
 /*small view  23 em */
 
+
+
 body {
 	padding: 0;
 	margin: 0 5%;
@@ -14,7 +16,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 900px;
+	
 	margin: 0 auto;
 	border-bottom: 1px solid #bbb;
 	display:grid;
@@ -46,21 +48,28 @@ header {
 	
 
 }
-
 header nav{
-	grid-column:3/4 ;
+	grid-column: 1/4;
 	
-
 }
 
-#menu li a{
+button{
+	width:30px;
+	
+}
+ul li{
+	margin-right: auto;
+}
+
+
+nav ul li a{
 	font-family:'Libre Franklin', sans-serif; 
 	color:white;
+	
+	
+
+
 }
-
-
-
-
 
 .social {
 	
@@ -163,12 +172,13 @@ footer img{
 	}
 
 .spot3{
+	display:none;
 	background-color: rgb(184, 174, 174);
 	height: 200px;
 	border: 1px solid  rgb(117, 115, 115);
 	margin-top:0;
 	padding: 8px;
-	display:none;
+	
 }
 
 
@@ -177,10 +187,11 @@ footer img{
 
 
 nav ul{display:none;}
-nav ul.open{display:block;}
+nav ul.open{display:flex;}
 
-#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(1) {display:flex;}
 #hamburgerBtn span:nth-child(2) {display:none;}
 
 #hamburgerBtn.open span:nth-child(1) {display:none;}
-#hamburgerBtn.open span:nth-child(2) {display:block;}
+#hamburgerBtn.open span:nth-child(2) {display:flex;}
+

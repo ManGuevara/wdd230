@@ -22,8 +22,6 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-       
-        
     }
 
 
@@ -55,6 +53,7 @@
         grid-row: 3/4;
         width:100%
     }
+   
 
     .spotlight {
         display: flex;
@@ -123,4 +122,3 @@ text-align: left;
 
 
 
-}
