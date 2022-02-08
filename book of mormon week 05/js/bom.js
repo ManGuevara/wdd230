@@ -31,9 +31,9 @@ addBton.addEventListener('click', function() {
 
     deleteBtn.addEventListener("click", function() {
     list.removeChild(listItem);
-    })
+    });
 //send the focus to the input element
 //clean up the successful add of a chapter by changing the input to nothing or the empty string and setting the focus to the input.
     input.focus();
 
-})
+});
