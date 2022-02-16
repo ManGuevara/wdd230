@@ -99,6 +99,15 @@
     height: 90%;
   }
 
+  .weather .weather_pic{
+    padding-left: 10px;
+  }
+
+.weather h2{
+  padding-left: 90px;
+}
+
+
   .release {
     grid-column: 2/3;
     grid-row: 3/4;
@@ -115,40 +124,61 @@
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom:0px ;
-    height: 700px;
+    height: 767px;
 
   }
 
-
+/*styles spot1*/
 
   .spot1 {
-    
-    
     width: 220px;
     margin-right: 0px;
-    height: 220px;
+    height: 279px;
     margin-bottom: 0px;
 }
 
+.spot1 .lawyers{
+  margin-left: 65px;
+}
 
+/*styles spot2*/
   
-
-  .spot2 {
-    
+.spot2 {
     border-right-width: 1px;
     width: 220px;
     height: 220px;
     margin-bottom: 0px;
-
+  }
+.spot2 .math{
+  margin-left: 65px;
   }
 
+/*style spot3*/
   .spot3 {
+    background-color: rgb(66, 66, 219);
     display: block;
     width: 220px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
+  }
+  .spot3 .paint{
+    width:100px;
+  }
+  .spot3 h1{
+    margin: auto;
+    color: yellow;
+    text-align: center;
+  }
+  .spot3 .paint{
+    margin-left: 65px;
+    }
+
+  .spot3 p{
+    text-align: center;
+    color:white;
+    margin: auto;
+    padding: 2px;
   }
 
   .social {
@@ -181,4 +211,16 @@
   .info {
     margin-right: 200px;
   }
+
+/* images css */
+
+.img-hero{
+	width: 450px;
+  height: 500px;
+  
+}
+
+
+
+
 }
