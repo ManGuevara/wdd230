@@ -36,8 +36,8 @@ nav ul.open{
     }
 
     .wellcome{
-        position: absolute;
-        top:120px;
+        position: relative;
+        top: -211px;
         left:80px;
         font-size: 35px;
     }

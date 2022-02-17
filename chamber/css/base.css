@@ -85,7 +85,7 @@ nav ul li a{
 	color:white;
 }
 
-a:hover{background-color: rgb(52, 8, 250);}
+a:hover{background-color: rgb(50, 53, 51);}
 
 .social {
 	
@@ -118,14 +118,14 @@ a:hover{background-color: rgb(52, 8, 250);}
 /*wellcome in image spotlight*/
 .wellcome{
 
-	position:absolute;
-	top:170px;
+	position:relative;
+	top:-200px;
 	color:blue;
 	font-size: 24px;
 }
 .Btn-join{
-	position:absolute;
-	top:300px;
+	position:relative;
+	top:-120px;
 	left:120px;
 	width:200px;
 	border-radius: 8px;
@@ -142,26 +142,30 @@ footer{ text-align: center;
     color: #F5F3F4;
 }
 
-
-
 footer img{
       
     width: 60px;
 	height:60px;
 	margin-top: 15px;
-
   }
+.info a{
+	color: yellow;
+}
+
+
+
 .hero{
 	/*background-color: rgb(184, 174, 174);*/
-	height: 200px;
+
 	border: 1px solid  rgb(117, 115, 115);
 	padding:5px;
+	height: 200px;
 
 }
 /*event style*/
 .event{
 	background-color: rgb(66, 66, 219);
-	height: 200px;
+	
 	border: 1px solid  rgb(117, 115, 115);
 	padding:5px;
 }
@@ -185,7 +189,6 @@ footer img{
 /*whaeter style*/
 .weather{
 	background-color: rgb(66, 66, 219);
-	height: 200px;
 	border: 1px solid rgb(117, 115, 115);
 	padding:5px;
 	display: grid;
@@ -229,7 +232,6 @@ footer img{
 /*release styles*/
 .release{
 	background-color: rgb(66, 66, 219);
-	height: 200px;
 	border: 1px solid  rgb(117, 115, 115);
 	padding:5px;
 }
@@ -263,7 +265,6 @@ footer img{
 /*spot1 styles*/
  .spot1{
 	background-color: rgb(66, 66, 219);
-	height: 250px;
 	border: 1px solid  rgb(117, 115, 115);
 	margin-bottom:0;
 	padding: 8px;
@@ -295,7 +296,6 @@ footer img{
 /*spot2 styles*/
  .spot2{
 	background-color: rgb(66, 66, 219);
-	height: 200px;
 	border: 1px solid  rgb(117, 115, 115);
 	margin-top:0;
 	padding: 8px;
@@ -332,7 +332,8 @@ footer img{
 
 
 nav ul{display:none;}
-nav ul.open{display:block;}
+nav ul.open{display:block;
+	background-color: #6060ef;}
 
 #hamburgerBtn span:nth-child(1) {display:flex;}
 #hamburgerBtn span:nth-child(2) {display:none;}
