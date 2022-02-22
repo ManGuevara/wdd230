@@ -26,9 +26,9 @@
             </P>
         </div>
 
-        <header>
+        <header class="clearfix">
             <div class="logo">
-                <img src="images/logo.png" alt="logo image">
+                <img src="images/logo.webp" alt="logo image">
 
                 <section class="headings">
                     <h1>Lima</h1>
@@ -62,15 +62,25 @@
 
         </header>
 
-        <main>
+        <main class="clearfix">
+
+          <!--
             <div class="hero">
-                <img class="img-hero" src="images/lima_base.jpg" alt="Lima photo">
+                <img class="img-hero" src="images/small.jpg" alt="example">
                 <h1 class="wellcome">Wellcome to Lima</h1>
                 <button class="Btn-join">Join the Chamber</button>
+            </div>-->
             
-            
+            <div class="hero">
+                <picture class="myphoto">
+                    <source media="(max-width:504px)" srcset="images/small.jpg">
+                    <source media="(max-width:904px)" srcset="images/medium.jpg">
+                    <source media="(max-width:1200px)" srcset="images/large.jpg">
+                    <img src="images/large.jpg" alt="hero image">
+                </picture>
+                
             </div>
-
+            
             <div class="event">
                 <h1>Workshop</h1>
                 <h2>Learning CSS</h2>
@@ -82,10 +92,10 @@
             <div class="weather"><img class="weather_pic" src="images/weather_img.png" alt="weather">
 
                 <h1>Weather</h1>
-                <p class="temp">33°C</p>
+                <p class="temp"><span id="temperature">10</span>°C</p>
                 <h2>Partly cloudy</h2>
-                <p>Wind Speed: 2.5km/h</p>
-                <p>Wind Chill: N/A</p>
+                <p>Wind Speed: <span id="windspeed">4.8</span>km/h</p>
+                <p>Wind Chill: <span id="factor">N/A</span></p>
 
 
             </div>
@@ -138,10 +148,10 @@
 
         </main>
 
-        <footer>
+        <footer class="clearfix">
             <div class="data_contact">
 
-                <img src="images/logo.png" alt="logo image">
+                <img src="images/logo.webp" alt="logo image">
                 <div class="contact">
 
                     <h3>Lima Chamber of commerce</h3>
@@ -168,6 +178,7 @@
     <script src="js/lastupdate.js"></script>
     <script src="js/current_date.js"></script>
     <script src="js/hamburger.js"></script>
+    <script src="js/windchill.js"></script>
 
 
 
