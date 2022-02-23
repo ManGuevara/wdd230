@@ -75,10 +75,10 @@
 /*Hero styles */
   .hero {
     width: 95%;
-    grid-column: 2/3;
+    /*grid-column: 2/3;
     grid-row: 1/3;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;*/
   }
 
 .hero{
@@ -102,8 +102,8 @@
 }
 picture.myphoto{
   position: relative;
-  top: -6px;
-  left: -13px;
+  top: 0px;
+  left: 225px;
 }
 
   .event {

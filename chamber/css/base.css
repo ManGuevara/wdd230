@@ -145,7 +145,7 @@ div.hero{
 	/*background-color: rgb(184, 174, 174);*/
 	display:block;
 	width:100%;
-	border: 1px solid  rgb(117, 115, 115);
+	border: 0px solid  rgb(117, 115, 115);
 	padding:0px;
 	height: 200px;
 }
@@ -156,6 +156,7 @@ picture.myphoto{
 	margin:0 2%;
 	position:relative;
 	top:-40px;
+	
 }
 main div picture.myphoto{
 	width:100%;
