@@ -35,16 +35,17 @@ nav ul.open{
         grid-row: 1/2;
     }
 
-    .wellcome{
-        position: relative;
-        top: -211px;
-        left:80px;
-        font-size: 35px;
-    }
+    
     .Btn-join{
         display: none;
     }
 
+    picture.myphoto{
+        position: relative;
+        top: -6px;
+        left: -17px
+
+    }
 
     .release {
         grid-column: 1/3;
