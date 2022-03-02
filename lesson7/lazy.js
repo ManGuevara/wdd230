@@ -1,9 +1,9 @@
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
-const imgOptions = {
-    treshold: 0,
-    rottMargin: "0px 0px 50px 0px"
-};
+//const imgOptions = {
+    //treshold: 0,
+    //rottMargin: "0px 0px 50px 0px"
+//};
 
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));

@@ -98,7 +98,6 @@ nav ul.open{
         width:100%;
         height: 250px;
     }
-   
 
     .spotlight {
         display: flex;
@@ -106,7 +105,6 @@ nav ul.open{
         margin-bottom: 10px;
        
     }
-
 
     .event {
         grid-column: 1/2;
@@ -154,8 +152,25 @@ text-align: left;
     width:100%;
 }
 
+ /*............discover page CSS...........*/
+
+ /*.......effects..........*/
+ 
+ .infograf img{
+    opacity:-0.5;
+    transition: 1s ease;
+    }
+    
+    .infograf img:hover{
+    opacity:1;
+    transition: 1s ease;
+    }
 
 
+
+
+
+    
 
 }
 

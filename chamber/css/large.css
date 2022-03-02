@@ -241,7 +241,45 @@ picture.myphoto{
   
 }
 
+/*......discover page CSS...........*/
 
+h1.atractions{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+
+/*........effects ............*/
+
+
+picture.picset img:hover{
+  width:100%;
+  border-radius: 8px;
+  box-shadow: 0 0 50px #333;
+}
+
+
+/*........grid discover......*/
+
+.images{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:50px 330px 330px 330px 330px 330px 33px;
+}
+
+h1 .atractions{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.infograf p{
+  position: relative;
+    top: -323px;
+    right: -103px;
+    width: 300px;
+}
 
 
 }
