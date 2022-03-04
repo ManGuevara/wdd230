@@ -404,7 +404,7 @@ form label.top input, form label.top textarea{
     border: solid 1px rgb(27, 105, 207);
     border-radius: 4px;
     padding: .75rem;
-    color: rgb(179, 166, 166);
+    color: rgb(12, 12, 12);
     width:100%;
     max-width:20rem ;
     background-color: rgba(129, 120, 120, 0.1);
@@ -438,12 +438,15 @@ form label.top input:required:valid{
 
 /*..........thankyou page..........*/
 
+form{
+	font-family: 'Libre Franklin'
+}
+
 .thanks{
 	text-align: center;
 }
-.thankyou{
-	
-}
+
+
 
 
 
