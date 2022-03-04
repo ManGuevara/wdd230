@@ -26,7 +26,7 @@ let totalTime= getTime - lastVisit;
 // total time in days.
 let days =totalTime/1000/60/60/24
 //display the number of days value
-todayDisplay.textContent= math.round(days)
+todayDisplay.textContent= Math.round(days)
 
 //const unixTime = todayDisplay.textContent ;
 

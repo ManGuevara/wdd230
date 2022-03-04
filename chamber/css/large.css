@@ -4,6 +4,9 @@
     margin-left: 0px;
     width: 100%;
     grid-template-columns: 1fr 2fr 1fr;
+    margin: 0 auto;
+	  max-width: 980px;
+
   }
 
   header img {
@@ -215,6 +218,11 @@ picture.myphoto{
     justify-content: center;
   }
 
+  footer{
+    margin: 0 auto;
+	  max-width: 980px;
+  }
+  
   footer img {
     margin-left: 70px;
     margin-top: 40px;
@@ -280,6 +288,30 @@ h1 .atractions{
     right: -103px;
     width: 300px;
 }
+
+/*.........join page..........*/
+
+.formulario{
+  display:flex;
+  width:100%;
+
+}
+
+/*..........thankyou page..........*/
+
+.thanks{
+	text-align: center;
+}
+
+.thankyou{
+  display:block;
+  width:100%;
+  
+}
+.empty{
+  height:100px;
+}
+
 
 
 }
