@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Oswald:wght@300&display=swap');
+
+*{font-family: 'Oswald', sans-serif;}
+
+body{
+    background-color: rgb(245, 221, 192);
+}
+ h1{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.cards{
+    background-color:rgb(139, 73, 73) ;
+    display: grid;
+    grid-template: auto / repeat(auto-fit, minmax(auto, 1fr));
+    grid-gap: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px rgb(212, 89, 89);
+    margin:auto;
+ 
+}
+.cards section p, h2{
+    text-align: center;
+    color:white;  
+}
+
+.cards section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 30px #777;
+    border: 1px solid #333;
+    width:100%;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    
+    
+}
+
+footer{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 405px) and (max-width: 700px)  {
+    .cards {
+        grid-template: auto / repeat(2, minmax(auto, 1fr));
+    }
+    h1 { padding: 20px 100px;}
+}
+
+@media screen and (min-width: 701px) and (max-width: 904px) {
+    .cards {
+        grid-template: auto / repeat(3, minmax(auto, 1fr));
+    }
+    h1 { padding: 20px 100px;}
+}
+
+@media screen and (min-width: 905px) {
+    .cards {
+        grid-template: auto / repeat(4, minmax(auto, 1fr));
+    }
+    main { padding: 2rem; }
+    h1 { padding: 20px 100px;}
+}
