@@ -1,11 +1,78 @@
 {
-    "logosinfo":[
-        {"name":"alicorp",
-        "address":"republic avenue 764",
-        "phone": "999854786",
-        "web":"https://www.alicorp.com.pe/pe/es/",
-        "imageurl":}
-        
+"logosinfo":[
+{"name":"Alicorp",
+"address":"Republic avenue 764",
+"phone": "999854786",
+"web":"https://www.alicorp.com.pe/pe/es/",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/alicorplo.jpg"
+},
+{"name":"Centenario",
+    "address":"Victor Andrés Belaunde avenue 147",
+    "phone":"987456321",
+    "web":"https://centenario.com.pe/",
+    "imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/centenario.jpg"  
+},
+{"name":"Cineplanet",
+"address":"Jr. de la Unión 819. 15001 - Lima",
+"phone":"985632458",
+"web":"https://www.cineplanet.com.pe/",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/Cineplanet.jpeg"
+},
 
-    ]
+{"name":"Clinica Internacional ",
+"address":"Inca Garcilaso de la Vega avenue 1420",
+"phone":"985632698",
+"web":"https://www.clinicainternacional.com.pe/sede/lima/",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/clinica.png"
+},
+
+{"name":"Ministerio de transportes",
+"address":"Zorritos street 1203",
+"phone":"01 6157900",
+"web":"https://www.gob.pe/mtc",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/mtc.png"
+},
+{"name":"Municipalidad de Lima",
+"address":"Conde de Superunda st. 141",
+"phone":"01 4896523",
+"web":"https://www.munlima.gob.pe/",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/muni.png"
+},
+{"name":"Museo de la Nacion",
+"address":"Javier Prado Este street 2465",
+"phone":"896547852",
+"web":"https://www.museosdelima.com/museo-de-la-nacion/",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/museo.png"
+},
+{"name":"Oncosalud",
+"address":"Las Gaviotas 207 Urb. San José",
+"phone":"987456325",
+"web":"https://www.oncosalud.pe/conocenos/sedes-y-clinicas",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/oncosalud.jpg"
+},
+{"name":"Plaza Vea supermarket",
+"address":"4651 Avenida Arequipa, Miraflores",
+"phone":"01 6258000",
+"web":"https://vea.plazavea.com.pe/principal/nuestras-tiendas",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/plazavea.png"
+},
+{"name":"Los Portales",
+"address":"Av. Portada del Sol 701",
+"phone":"896523698",
+"web":"https://www.losportales.com.pe/",
+"imageurl":"https://manguevara.github.io/wdd230//chamber/images/companies_logos/portales.jpg"
+},
+{"name":"Pontificia Universidad Catolica",
+"address":"Av. Universitaria 1801",
+"phone":"968521458",
+"web":"https://www.pucp.edu.pe/",
+"imageurl":"/chamber/images/companies_logos/pucp.jpg"
+},
+{"name":"Real Plaza",
+"address":"Av. Inca Garcilaso de la Vega 1337",
+"phone":"987451258",
+"web":"https://www.realplaza.com/",
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/realplaza.jpg"
+}
+]
 }
