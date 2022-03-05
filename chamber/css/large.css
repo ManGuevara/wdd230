@@ -314,4 +314,12 @@ h1 .atractions{
 
 
 
+/*........directory page........*/
+
+.catalog{
+  display:flex;
+  width:100%;
+}
+
+
 }
