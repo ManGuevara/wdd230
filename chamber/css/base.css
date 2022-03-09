@@ -446,12 +446,123 @@ form{
 	text-align: center;
 }
 
+/*............directory page ..........*/
+
+.catalog{
+	display:block;
+	width:100%;
+}
+/* button list*/
+.grid-list-btn{
+	text-align: center;
+	padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.grid-list-btn button.selected{
+	background-color: #9c9ca5;
+	color:#49d437;
+}
+
+.grid-list-btn button:hover {
+	cursor: pointer;
+}
 
 
 
+.grid-list-btn button{
+	background-color: #5151b9;
+    color: white;
+    border: solid #e97474;
+    padding-right: 30px;
+	font-size: 20px;
+	
+}
 
 
+/*.cards.list{
+	display: block;
+}
+/*....*/
 
+
+.cards{
+	
+	display:grid;
+	grid-template: auto / repeat(1, minmax(auto, 1fr));
+	padding:2px;
+	grid-gap: 0rem;
+	margin:auto;
+}
+
+/*images*/
+.cards section{
+	box-shadow: 1px 1px 5px;
+	padding: 0rem;
+	text-align: center;
+	grid-gap: 1rem;
+	box-shadow: #222121;
+	margin:1rem;
+	padding-bottom: 2rem;
+	padding-top: 0rem;
+
+}
+
+.cards section img {
+    width: 100%;
+    height: 200px;
+	width:200px;
+    object-fit: contain;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.cards section p{
+	font-family: 'Libre Franklin', sans-serif;
+	position: relative;
+	top:-40px;
+	
+}
+
+.cards section a{
+	font-family: 'Libre Franklin', sans-serif;
+	position: relative;
+	top:-40px;
+}
+
+
+/*table*/
+table tr th:nth-of-type(4){
+	display: none;
+}
+
+table{
+	width:100%;
+	border-spacing: 0px;
+	margin-left:50px;
+	margin-right: 50px;
+	border:solid black;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+thead{
+	background-color: #594baa;
+	color:white;	
+}
+
+thead tr th{
+	padding:1rem 1.5rem;
+}
+
+tbody tr th{
+	padding:1rem 1.5rem;
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e0d9d9;
+}
 
 
 

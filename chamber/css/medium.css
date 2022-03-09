@@ -166,6 +166,21 @@ text-align: left;
     transition: 1s ease;
     }
 
+/*.................directory page...........*/
+
+@media screen and (min-width: 504px) and (max-width: 904px) {
+    .cards {
+        grid-template: auto / repeat(2, minmax(auto, 1fr));
+    }
+  
+}
+
+
+
+ /*table*/
+table tr th:nth-of-type(4){
+	display: block;
+}   
 
 
 

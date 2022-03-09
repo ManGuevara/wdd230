@@ -316,9 +316,22 @@ h1 .atractions{
 
 /*........directory page........*/
 
-.catalog{
-  display:flex;
-  width:100%;
+
+ /*table*/
+ table tr th:nth-of-type(4){
+	display: block;
+}   
+
+
+
+
+
+@media screen and (min-width: 905px) {
+  .cards {
+      grid-template: auto / repeat(3, minmax(auto, 1fr));
+  }
+  
+  
 }
 
 
