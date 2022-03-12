@@ -3,7 +3,7 @@
 {"name":"Alicorp",
 "address":"Republic avenue 764",
 "phone": "999854786",
-"web":"https://www.alicorp.com.pe/pe/es/",
+"web":"https://www.alicorp.com.pe/",
 "imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/alicorplo.jpg"
 },
 {"name":"Centenario",
@@ -21,7 +21,7 @@
 {"name":"Clinica Internacional ",
 "address":"Inca Garcilaso de la Vega avenue 1420",
 "phone":"985632698",
-"web":"https://www.clinicainternacional.com.pe/sede/lima/",
+"web":"https://www.clinicainternacional.com.pe/",
 "imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/clinica.png"
 },
 {"name":"Ministerio de transportes",
