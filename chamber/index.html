@@ -91,12 +91,15 @@
                 </p>
             </div>
 
-            <div class="weather"><img class="weather_pic" src="images/weather_img.webp" alt="weather">
+            <div class="weather">
 
                 <h1>Weather</h1>
-                <p class="temp"><span id="temperature">10</span>°C</p>
-                <h2>Partly cloudy</h2>
-                <p>Wind Speed: <span id="windspeed">4.8</span>km/h</p>
+                <p class="temp">The current temperature in Lima,is: <span id="current-temp"></span> &deg;C</p>
+                <p class="condition">Weather conditions</p>
+                <figure class="imagendeclima"><img src="" alt="" id="weathericon" />
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed: <span id="windspeed"></span>km/h</p>
                 <p>Wind Chill: <span id="factor">N/A</span></p>
 
 
@@ -185,6 +188,7 @@
     <script src="js/hamburger.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/local_storage.js"></script>
+    <script src="js/wheaterapi.js"></script>
 
 
 

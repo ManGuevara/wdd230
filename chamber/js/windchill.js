@@ -1,8 +1,8 @@
-let temp= document.getElementById('temperature');
+let temp= document.getElementById('current-temp');
 let wSpeed=document.getElementById("windspeed");
 
-temp.innerHTML = "10";
-wSpeed.innerHTML = "5";
+temp.innerHTML = document.querySelector('#current-temp').textContent;
+wSpeed.innerHTML = document.querySelector('#windspeed').textContent;
 
 
 let windChilldFormula= function(t,s){
