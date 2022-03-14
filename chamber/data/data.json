@@ -39,19 +39,19 @@
 {"name":"Museo de la Nacion",
 "address":"Javier Prado Este street 2465",
 "phone":"896547852",
-"web":"https://www.museosdelima.com/museo-de-la-nacion/",
+"web":"https://www.museosdelima.com/",
 "imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/museo.png"
 },
 {"name":"Oncosalud",
 "address":"Las Gaviotas 207 Urb. San José",
 "phone":"987456325",
-"web":"https://www.oncosalud.pe/conocenos/sedes-y-clinicas",
+"web":"https://www.oncosalud.pe/",
 "imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/oncosalud.jpg"
 },
 {"name":"Plaza Vea supermarket",
 "address":"4651 Avenida Arequipa, Miraflores",
 "phone":"01 6258000",
-"web":"https://vea.plazavea.com.pe/principal/nuestras-tiendas",
+"web":"https://vea.plazavea.com.pe/",
 "imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/plazavea.png"
 },
 {"name":"Los Portales",

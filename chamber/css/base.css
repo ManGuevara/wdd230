@@ -517,6 +517,8 @@ form{
 	margin:1rem;
 	padding-bottom: 0rem;
 	padding-top: 0rem;
+	width: 250px;
+    height: 255px;
 
 }
 
@@ -540,7 +542,7 @@ form{
 .cards section a{
 	font-family: 'Libre Franklin', sans-serif;
 	position: relative;
-	top:-40px;
+	top:-56px;
 }
 
 
