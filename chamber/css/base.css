@@ -517,32 +517,33 @@ form{
 	margin:1rem;
 	padding-bottom: 0rem;
 	padding-top: 0rem;
-	width: 250px;
-    height: 255px;
+	width: 95%;
+    height: 218px;
 
 }
 
 .cards section img {
     width: 100%;
-    height: 200px;
+    height: 139px;
 	width:200px;
     object-fit: contain;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	/*width: 50%;*/
 }
 .cards section p{
 	font-family: 'Libre Franklin', sans-serif;
 	position: relative;
-	top:-40px;
+	top:-12px;
+	margin-bottom: -12px;
 	
 }
 
 .cards section a{
 	font-family: 'Libre Franklin', sans-serif;
 	position: relative;
-	top:-56px;
+	top:3px;
 }
 
 
@@ -554,8 +555,6 @@ table tr th:nth-of-type(4){
 table{
 	width:100%;
 	border-spacing: 0px;
-	margin-left:50px;
-	margin-right: 50px;
 	border:solid black;
 	font-family: 'Libre Franklin', sans-serif;
 }
@@ -566,11 +565,11 @@ thead{
 }
 
 thead tr th{
-	padding:1rem 1.5rem;
+	padding:1rem;
 }
 
 tbody tr th{
-	padding:1rem 1.5rem;
+	padding:1rem;
 
 }
 

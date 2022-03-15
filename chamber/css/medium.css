@@ -172,20 +172,30 @@ text-align: left;
     .cards {
         grid-template: auto / repeat(2, minmax(auto, 1fr));
     }
+
+    thead tr th{
+        padding:1rem 1.5rem;
+    }
+    
+    tbody tr th{
+        padding:1rem 1.5rem;
+    
+    }
+    /*table*/
+table tr th:nth-of-type(4){
+	display: none;
+}   
+table{
+    grid-column: 1/-1;
+}
+#menu li a{
+    font-size: 13px;
+}
   
 }
 
 
 
- /*table*/
-table tr th:nth-of-type(4){
-	display: block;
-}   
-
-
-
-
-    
 
 }
 

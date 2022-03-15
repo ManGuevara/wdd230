@@ -21,12 +21,13 @@ fetch(requestURL)
         logosinfo.forEach(displayLogosinfo);    
         });
 
-// Define a function named "displayProphets"
-//accept one parameter named "prophet" which 
+// Define a function named "displayLogosinfo"
+//accept one parameter named "logoinfo" which 
 //will receive each element of the prophets array.
 function displayLogosinfo(logoinfo){
     // Create elements to add to the document
     let card = document.createElement('section');
+    
     let logo = document.createElement('img');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
@@ -38,6 +39,7 @@ function displayLogosinfo(logoinfo){
     logo.setAttribute('alt',`Logo of ${logoinfo.name}`);
     logo.setAttribute('loading','lazy');
      // Change the textContent property of the p elements
+   
     p1.textContent = logoinfo.address;
     p2.textContent = logoinfo.phone;
     // Change the textContent property of the a elements
@@ -47,6 +49,7 @@ function displayLogosinfo(logoinfo){
     
 
     // Add/append the section(card) with the h2 element
+    
     card.appendChild(logo);
     card.appendChild(p1);
     card.appendChild(p2);
