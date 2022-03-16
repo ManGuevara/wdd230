@@ -75,12 +75,12 @@
             <div class="hero">
                 
                 <picture class="myphoto">
-                    <button class="Btn-join">Join the Chamber</button>
                     <source media="(max-width:504px)" srcset="images/lima_small.jpg">
                     <source media="(max-width:904px)" srcset="images/lima_medium.jpg">
                     <source media="(max-width:1200px)" srcset="images/lima_large.jpg">
                     <img src="images/lima_large.jpg" alt="hero image">
                 </picture>
+                <button class="Btn-join" onclick="window.location.href='join.html';">Join the Chamber</button>
 
             </div>
 
@@ -97,7 +97,7 @@
                 <h1>Weather</h1>
                 <p class="temp">The current temperature in Lima,is: <span id="current-temp"></span> &deg;C</p>
                 <p class="condition">Weather conditions</p>
-                <figure class="imagendeclima"><img src="" alt="" id="weathericon" />
+                <figure class="imagendeclima"><img  id="weathericon" />
                     <figcaption></figcaption>
                 </figure>
                 <p>Wind Speed: <span id="windspeed"></span>km/h</p>
@@ -116,7 +116,9 @@
 
             <div class="join">
                 <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-                <button class="Btn-join-us">Join us!</button>
+    
+                <button class="Btn-join-us" onclick="window.location.href='join.html';">Join us!</button>
+            
             </div>
 
 

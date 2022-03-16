@@ -40,12 +40,13 @@ nav ul.open{
         display: none;
     }
 
-    picture.myphoto{
+    /*picture.myphoto{
         position: relative;
         top: -6px;
-        left: -17px
+        left: -29px;
+        width:100%;
 
-    }
+    }*/
 
     .release {
         grid-column: 1/3;
