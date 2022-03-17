@@ -367,8 +367,18 @@ nav ul.open{display:block;
 
 
   /*............discover page CSS...........*/
+  .atractions{
+	
+   font-family: 'Libre Franklin';
+   text-align: center;
+   padding-bottom:1rem;
+}
 
-  
+  picture.picset img{
+	  width:100%;
+	  border-radius: 8px;
+	  box-shadow: 0 0 50px #333;
+  }
   
 
   figure.picture{
