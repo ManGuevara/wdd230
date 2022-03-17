@@ -435,6 +435,7 @@ form label.top input, form label.top textarea{
     width:100%;
     max-width:20rem ;
     background-color: rgba(129, 120, 120, 0.1);
+	width:90%;
 
 }
 form label.sbs {
@@ -456,6 +457,7 @@ form input.submitBtn{
 }
 form label.top input:required{
     border-left: red solid 6px;
+	width: 90%;
 }
 form label.top input:required:valid{
     border-left: green solid 6px;
@@ -470,7 +472,12 @@ form{
 }
 
 .thanks{
+	font-family: 'Libre Franklin';
+}
+.thank{
 	text-align: center;
+	font-family: 'Libre Franklin';
+	font-size:18px;
 }
 
 /*............directory page ..........*/

@@ -269,9 +269,27 @@ picture.picset img:hover{
 .formulario{
   display:flex;
   width:100%;
-
 }
 
+.memberships{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-radius: 15px;
+}
+
+
+section p{
+  padding:0 1rem 1rem 2rem;
+}
+
+section h3{
+  padding-left: 2rem;
+}
+
+form label.sbs{
+  text-align: center;
+}
 /*..........thankyou page..........*/
 
 .thanks{

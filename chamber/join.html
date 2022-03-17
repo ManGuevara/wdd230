@@ -34,7 +34,7 @@
         <nav>
 
             <ul id="menu">
-                
+
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
@@ -72,8 +72,8 @@
 
                 <fieldset>
                     <legend>Business Information</legend>
-                    <label class="top">Business position <input type="text" name="bposition" required
-                            minlength="7" pattern="^([A-Za-z]+[,.]?[ ]?|[A-Za-z]+['-]?)+$">
+                    <label class="top">Business position <input type="text" name="bposition" required minlength="7"
+                            pattern="^([A-Za-z]+[,.]?[ ]?|[A-Za-z]+['-]?)+$">
                     </label>
                     <label class="top">Email<input type="email" name="email" placeholder="someone@gamil.com"
                             required></label>
@@ -84,9 +84,49 @@
 
                 </fieldset>
                 <fieldset>
-                    <legend>Membership levels</legend>
-                    <div>This memberships have increasing costs as well as increased benefits per level like trainings,
-                        advertising. Select the membership plan thats fits to you</div>
+                    <legend>Membership levels </legend>
+                    <div class="memberships">
+                        <section class="non-profit">
+                            <h3>NP membership (Cost: Free)</h3>
+                            <p>
+                                This membership is for non profit organizations and there is no fee. Be part of our
+                                community and
+                                you not only will be able to attend the weekly meetings but you will have the most
+                                recent news and training by our team.
+
+                            </p>
+                        </section>
+
+                        <section class="bronze">
+                            <h3>Bronze membership (Cost: $100)</h3>
+                            <p>
+                                On this membershipYou will be able to access the weekly meetings, you will have the most
+                                recent news and training by our team. On top of that you will get one free class in any
+                                subject you are interested in.
+
+
+                            </p>
+                        </section>
+                        <section class="silver">
+                            <h3>Silver membership (Cost: $150)</h3>
+                            <p>
+                                On this membership on top of bronze you will have some disccounts bonnus on the
+                                neighboorhood stores.Also, you will have one free post on our website for one week.
+
+                            </p>
+                        </section>
+                        <section class="gold">
+                            <h3>Gold membership (Cost:$250)</h3>
+                            <p>
+                                On this membership you will have unlimited acces to our events , plus permanent advice
+                                from our staff or lawyers on your bussiness issues.on top of that you will have
+                                permanent assistance from our partners on housing reparements.
+
+                            </p>
+                        </section>
+
+
+                    </div>
                     <label class="sbs"><input type="checkbox" name="np" value="yes">NP membership</label>
                     <label class="sbs"><input type="checkbox" name="bronze" value="yes">Bronze Membership</label>
                     <label class="sbs"><input type="checkbox" name="silver" value="yes">Silver Membership</label>
@@ -131,7 +171,7 @@
             <p class="update_text"> Last Modification:<span id="last_modified"></span></p>
         </div>
     </footer>
-    
+
     <script src="js/banner.js"></script>
     <script src="js/lastupdate.js"></script>
     <script src="js/current_date.js"></script>
