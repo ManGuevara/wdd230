@@ -323,6 +323,12 @@ h1 .atractions{
   table{
     grid-column: 1/-1;
 }
+tbody tr th{
+  padding: 1rem 1.5rem;
+}
+thead tr th {
+    padding: 1rem 1.5rem;
+  }
 #menu li a{
   font-size: 13px;
 }

@@ -30,9 +30,10 @@ nav ul.open{
 
 
 /*hero styles*/
-    .hero {
+    div.hero {
         grid-column: 1/3;
         grid-row: 1/2;
+        width:100%;
     }
 
     
@@ -40,13 +41,7 @@ nav ul.open{
         display: none;
     }
 
-    /*picture.myphoto{
-        position: relative;
-        top: -6px;
-        left: -29px;
-        width:100%;
-
-    }*/
+  
 
     .release {
         grid-column: 1/3;
@@ -145,13 +140,7 @@ text-align: left;
 }
 
 
-/* images css */
 
-.img-hero{
-	width:450px;
-    height: 200px;
-    width:100%;
-}
 
  /*............discover page CSS...........*/
 
