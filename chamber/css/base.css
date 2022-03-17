@@ -154,12 +154,13 @@ picture.myphoto{
 	display:block;
 	width:96%;
 	
-	/*position:relative;
-	top:7px;*/
-	
 }
 main div picture.myphoto{
 	width:100%;
+}
+
+.hero picture img {
+	width: 100%;
 }
 
 /*event style*/
