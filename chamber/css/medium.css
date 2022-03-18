@@ -139,7 +139,19 @@ text-align: left;
 
 }
 
+/*........Join page................*/
 
+.formulario{
+    display:flex;
+    width:100%;
+  }
+
+  section p{
+    padding:0 1rem 1rem 2rem;
+  }
+  section h3{
+    padding-left: 2rem;
+  }
 
 
  /*............discover page CSS...........*/
@@ -207,6 +219,17 @@ div .infograf-via {
     opacity:1;
     transition: 1s ease;
     }*/
+
+/*........contact page.........*/
+.contact{
+    display:block;
+}
+
+
+
+
+
+
 
 /*.................directory page...........*/
 

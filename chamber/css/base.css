@@ -464,6 +464,16 @@ form label.top input:required:valid{
 
 }
 
+.memberships{
+	border-radius: 15px;
+}
+
+section p{
+    padding:0 1rem 1rem 1rem;
+  }
+  section h3{
+    padding-left: 1rem;
+  }
 
 /*..........thankyou page..........*/
 
@@ -600,5 +610,21 @@ tbody tr:nth-child(odd) {
     background-color: #e0d9d9;
 }
 
+/*.......contact page........*/
 
+form .personal-info1{
+	display: block;
+    padding-top: .5rem;
+	color:white;
+	
+}
+form div.map{
+	background-color: white;
+}
+
+.map iframe{
+	align-content: center;
+	
+	width:100%;	
+}
 

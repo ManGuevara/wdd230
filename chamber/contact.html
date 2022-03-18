@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Source+Code+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <header class="clearfix">
+        <div class="logo">
+            <img src="images/logo.webp" alt="logo image">
+
+            <section class="headings">
+                <h1>Lima</h1>
+                <div>chamber of commerce</div>
+            </section>
+
+        </div>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span> </button>
+        <nav>
+
+            <ul id="menu">
+
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="social">
+            <a href="https://twitter.com/?lang=ES" target="_blank">
+                <img src="images/twitter.png" alt="twitter-logo" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.png" alt="facebook image" />
+            </a>
+        </div>
+
+        <div class="date"></div>
+
+    </header>
+    <main class="contact">
+        <div>
+            <form method="get" action="#">
+                <h1>Contact us</h1>
+                <fieldset class="container-contact">
+                    <legend>Personal information</legend>
+                    <section class="personal-info1">
+                        <label class="top">Full Name <input type="text" name="fname" required></label>
+                        <label class="top">Email<input type="email" name="email" placeholder="someone@gamil.com">
+
+                    </section>
+
+                    <section class="personal-info2">
+                        <label class="top">Phone <input type="tel" name="phone" required></label>
+                        <label class="top">Business Name <input type="text" name="bname" required></label>
+
+                    </section>
+                    <section class="text-area">
+                        <label class="top">Message <textarea name="message" rows="4" cols="50"></textarea></label>
+                    </section>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Office hours</legend>
+                    <section class="office">
+                        <p>Monday-Friday: 9am -5pm</p>
+                        <p>Saturday:8am-12pm</p>
+                        <p>Phone: 999909985</p>
+                        <p>E-mail:contact@limachamber.org </p>
+                    </section>
+
+                </fieldset>
+              
+                <fieldset>
+                    <legend>Map</legend>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.6255354970003!2d-77.00325184922644!3d-12.000392444266076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5849b8a4071%3A0x7c665ad183c40e85!2sLos%20Minerales%2C%20San%20Juan%20de%20Lurigancho%2015431!5e0!3m2!1ses-419!2spe!4v1647573886992!5m2!1ses-419!2spe"
+                            width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    </div>
+                </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </form>
+        </div>
+    </main>
+    <footer class="clearfix">
+        <div class="data_contact">
+
+            <img src="images/logo.webp" alt="logo image">
+            <div class="contact">
+
+                <h3>Lima Chamber of commerce</h3>
+                <p>Minerales street</p>
+                <p>Number764-766</p>
+            </div>
+            <div class="info">
+                <p>mgd@chamber.org</p>
+                <p>+54 999909985</p>
+                <a href="https://goo.gl/maps/x64wqaXpy7fQ61YGA">Location map</a>
+            </div>
+            <div>
+                <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
+                <p>Last time visited: <span id="today"></span> days.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="year_data">
+            <p> &copy;<span id="year"></span> Lima Chamber of commerce </p>
+            <p> Manuel Guevara </p>
+            <p> WDD 230 Project </p>
+            <p class="update_text"> Last Modification:<span id="last_modified"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/lastupdate.js"></script>
+    <script src="js/current_date.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/local_storage.js"></script>
+</body>
+
+</html>
