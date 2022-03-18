@@ -322,9 +322,12 @@ form label.sbs{
   grid-template-columns: 1fr 1fr;
 
 }
- .text-area{
-  margin-left:229px ;
-  margin-right: -229px;
+
+.messsage-contact{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 1rem;
+
 }
 
 

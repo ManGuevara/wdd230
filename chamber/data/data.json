@@ -4,7 +4,9 @@
 "address":"Republic avenue 764",
 "phone": "999854786",
 "web":"https://www.alicorp.com.pe/",
-"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/alicorplo.jpg"
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/alicorplo.jpg",
+"status": "golden"
+
 },
 {"name":"Centenario",
     "address":"Victor Andrés Belaunde avenue 147",
@@ -34,7 +36,8 @@
 "address":"Conde de Superunda st. 141",
 "phone":"01 4896523",
 "web":"https://www.munlima.gob.pe/",
-"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/muni.jpg"
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/muni.jpg",
+"status": "silver"
 },
 {"name":"Museo de la Nacion",
 "address":"Javier Prado Este street 2465",
@@ -52,7 +55,8 @@
 "address":"4651 Avenida Arequipa, Miraflores",
 "phone":"01 6258000",
 "web":"https://vea.plazavea.com.pe/",
-"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/plazavea.jpg"
+"imageurl":"https://manguevara.github.io/wdd230/chamber/images/companies_logos/plazavea.jpg",
+"status": "bronze"
 },
 {"name":"Los Portales",
 "address":"Av. Portada del Sol 701",
