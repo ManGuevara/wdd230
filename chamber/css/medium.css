@@ -71,6 +71,7 @@ nav ul.open{
         font-size: 32px;
         position:relative;
         top:-35px;
+        font-family: 'Libre Franklin';
     }
     
 
@@ -156,78 +157,16 @@ text-align: left;
 
  /*............discover page CSS...........*/
 
- /*.......effects..........*/
- .atractions{
-     text-align: center;
-    grid-column: 1/3;
-    grid-row: 1/2;
-    font-family: 'Libre Franklin';
- }
- div .infograf-catedral {
-    grid-column: 1/2;
-    grid-row: 2/3;
+.images{
+    display:block
 }
 
-.infograf-catedral.p1{
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-    
-div .infograf-san-martin {
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-
-div .infograf-barranco {
-    grid-column: 1/2;
-    grid-row: 4/5;
-}
-div .infograf-mayor {
-    grid-column: 1/2;
-    grid-row: 5/6;
-}
-div .infograf-miraflores {
-    grid-column: 1/2;
-    grid-row: 6/7;
-}
-div .infograf-palacio {
-    grid-column: 1/2;
-    grid-row: 7/8;
-}
-div .infograf-parque {
-    grid-column: 1/2;
-    grid-row: 8/9;
-}
-div .infograf-plaza {
-    grid-column: 1/2;
-    grid-row: 9/10;
-}
-div .infograf-via {
-    grid-column: 1/2;
-    grid-row: 10/11;
-}
-
-.images.im1:hover{
-    /*width:100%;
-    border-radius: 8px;*/
-    box-shadow: 0 0 50px #333;
-  }
   
-
-
-    /*.infograf img:hover{
-    opacity:1;
-    transition: 1s ease;
-    }*/
 
 /*........contact page.........*/
 .contact{
     display:block;
 }
-
-
-
-
 
 
 
@@ -254,7 +193,7 @@ table{
     grid-column: 1/-1;
 }
 #menu li a{
-    font-size: 13px;
+    font-size: 15px;
 }
   
 }

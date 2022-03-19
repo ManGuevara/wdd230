@@ -1,5 +1,5 @@
 /*small view  23 em */
-
+h1{font-family: 'Libre Franklin';}
 p{font-family: 'Libre Franklin';
 	padding:2px;
 
@@ -84,8 +84,8 @@ ul li{
 
 nav ul li a:hover{
 	font-family:'Libre Franklin', sans-serif; 
-	color:blue;
-	background-color: yellow;
+	color:yellow;
+	background-color: rgb(247, 7, 7);
 }
 
 a:hover{background-color: rgb(50, 53, 51);}
@@ -114,6 +114,7 @@ a:hover{background-color: rgb(50, 53, 51);}
 	text-align: center;
 	color: black;
 	font-family: 'Libre Franklin', sans-serif;
+	font-size: 17px;
 }
 
 
@@ -145,6 +146,8 @@ button.Btn-join{
 	padding:10px;
 	font-size: 20px ;
 	background-color: green;
+	color: white;
+    font-family: 'Libre Franklin';
 }
 div.hero{
 	/*background-color: rgb(184, 174, 174);*/
@@ -163,7 +166,9 @@ picture.myphoto{
 main div picture.myphoto{
 	width:100%;
 }
-
+main p {
+	font-size: 15px;
+}
 .hero picture img {
 	width: 100%;
 }
@@ -183,6 +188,7 @@ main div picture.myphoto{
 .event h2 {
 	text-align: center;
 	color: white;
+	font-family: 'Libre Franklin';
 }
 .event p{
 	color: white;
@@ -310,6 +316,8 @@ form fieldset label input {
 } 
 .spot1 p{
 	padding:2px;
+	margin: 5px;
+
 }
 .spot1 .slogan{
 	margin-bottom: 10px;
@@ -342,7 +350,18 @@ form fieldset label input {
 }
 
 
-.spot3{
+
+.spotlight div{
+	display: flex;
+    flex-direction: column;
+}
+.spotlight img{
+	width:200px;
+	margin:0 auto;
+}
+
+
+.spotlight .spot3{
 	display:none;
 	background-color: rgb(184, 174, 174);
 	height: 200px;
@@ -351,11 +370,16 @@ form fieldset label input {
 	padding: 8px;
 	
 }
-
-
 nav ul{display:none;}
 nav ul.open{display:block;
-	background-color: #6060ef;}
+	background-color: #6060ef;
+	border-radius: 15px;
+    padding: 12px 0px 13px 10px;}
+nav ul.open a{
+	color:yellow;
+	font-family: 'Libre Franklin';
+	font-size: 15px;
+}
 
 #hamburgerBtn span:nth-child(1) {display:flex;}
 #hamburgerBtn span:nth-child(2) {display:none;}
@@ -384,12 +408,14 @@ nav ul.open{display:block;
 	  border-radius: 8px;
 	  box-shadow: 0 0 50px #333;
   }
-  
-
-  figure.picture{
-	  margin:2px;
-	 
+  .images p{
+	margin-bottom: 30px;
+    margin-top: 2px;
   }
+.images .p9{
+	margin-bottom: 4px;
+    padding-bottom: 12px;
+}
 
 .infograf p{
 	margin-top: 1px;
@@ -517,7 +543,9 @@ form{
 	cursor: pointer;
 }
 
-
+.catalog p{
+	font-size: 13px;
+}
 
 .grid-list-btn button{
 	background-color: #5151b9;
@@ -527,13 +555,6 @@ form{
 	font-size: 20px;
 	
 }
-
-
-/*.cards.list{
-	display: block;
-}
-/*....*/
-
 
 .cards{
 	
@@ -550,12 +571,12 @@ form{
 	padding: 0rem;
 	text-align: center;
 	grid-gap: 1rem;
-	box-shadow: #222121;
 	margin:1rem;
-	padding-bottom: 0rem;
+	padding-bottom: 1rem;
 	padding-top: 0rem;
 	width: 95%;
     height: 218px;
+	
 
 }
 
@@ -638,4 +659,17 @@ form div.map{
 .text-area{
 	margin-left: 1rem;
 	margin-right: 1rem;
+}
+form input.sendBtn{
+	border: none;
+    background-color: #2707df;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 8px 0 2rem 2%;
+    width: 40%;
+    max-width: 20rem;
+}
+form .container-contact, .messsage-contact, .ubicacion{
+	padding-bottom: 17px;
 }
